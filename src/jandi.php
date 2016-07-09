@@ -16,7 +16,7 @@ class Jandi
 		$data["connectColor"] = $connectColor;
 		$data["connectInfo"] = $connectInfo;
 		$data_json = json_encode($data);
-		echo $data_json;
+		
 		$headers = array();
 		$headers[] = 'Content-Type: application/json';
 		$headers[] = 'Accept: application/vnd.tosslab.jandi-v2+json';
